@@ -1,0 +1,107 @@
+body{
+  background-color: #7ba6de;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(236, 247, 246);
+  border:1px solid rgb(15, 11, 8);
+  padding:2px;
+  
+}
+.App-article{
+  text-align: center;
+}
+caption{
+  color:rgb(65, 47, 226);
+  text-align:center;
+  font-size: 20px;
+  border:none
+}
+
+table{
+  color:rgb(221, 236, 221);
+  text-align:left;
+  font-size: 25px;
+  border-collapse:collapse;
+  border: 1px solid black
+}
+
+th,td{
+  width:120px;
+  text-align: left;
+  font-size: 20px;
+  border:1px solid rgb(15, 11, 8);
+  padding:2px;
+  background-color: rgb(178, 155, 229);
+}
+
+tr{
+  color: #0b5367;
+  text-align: left;
+  font-size: 20px;
+  border:3px solid rgb(10, 9, 10);
+}
+
+fieldset{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #0b5367;
+  font-size:18px;
+}
+
+legend{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#0b5367;
+  font-size:18px;
+}
+label{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#0b5367;
+  font-size:18px;
+}
+input{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#0b5367;
+  font-size:10px;
+}
+button{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#0b5367;
+  font-size:10px;
+}
+Link{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#0b5367;
+  font-size:10px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
